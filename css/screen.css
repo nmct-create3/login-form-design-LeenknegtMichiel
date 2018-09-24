@@ -482,6 +482,13 @@ a:focus {
     ---
     Everything form related here
 */
+.c-form-field{
+
+}
+.c-form-field--option{
+    display: flex;
+    align-items: center;
+}
 
 /*
     Component: Input
@@ -490,7 +497,7 @@ a:focus {
 */
 
 .c-input {
-
+    
 }
 
 .c-input:focus {
@@ -501,9 +508,13 @@ a:focus {
     ---
     Class to put on all form labels
 */
+input, label {
+    display: block;
+
+}
 
 .c-label {
-
+    
 }
 
 /* If a input is focused within the form-field class change te color of the label */
