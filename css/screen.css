@@ -10,13 +10,13 @@
 @font-face {
     font-family: "Inter UI Web";
     font-weight: 600;
-    src: url("../fonts/Inter-UI-Regular.woff2") format("woff2")
+    src: url("../fonts/Inter-UI-Medium.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Inter UI Web";
     font-weight: 700;
-    src: url("../fonts/Inter-UI-Regular.woff2") format("woff2")
+    src: url("../fonts/Inter-UI-Bold.woff2") format("woff2")
 }
 
 /*------------------------------------*\
@@ -597,19 +597,29 @@ input, label {
 */
 
 .c-button {
+    width: 100%;
+    background-color: #3385FF;
+    height: 60px;
+    border-radius: 5px;
+    color:#f5f6fa;
+    font-size: 20px;
+    font-weight: 700;
+    
 
 }
 
 .c-button:hover {
-
+    background-color: rgb(128, 179, 255);
 }
 
 .c-button:focus {
-
+    background-color: rgb(128, 179, 255);
 }
 
 .c-button:active {
-
+    outline: none;
+    border-color:lightblue;
+    box-shadow: h-offset v-offset blur spread color;
 }
 
 .c-button--block {
