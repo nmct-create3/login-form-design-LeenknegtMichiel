@@ -497,6 +497,17 @@ a:focus {
 */
 
 .c-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 4px;
+    font-family: 'Inter UI Web', 'Comic Sans MS', sans-serif;
+    color: #20223a;
+
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
     
 }
 
