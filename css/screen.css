@@ -512,6 +512,9 @@ a:focus {
 }
 
 .c-input:focus {
+   outline: none;
+   border-color:lightseagreen;
+   box-shadow: h-offset v-offset blur spread color; 
 }
 
 /*
