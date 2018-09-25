@@ -477,6 +477,29 @@ a:focus {
     ---
     Card with box shadow
 */
+.c-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: gray;
+    
+}
+.c-card__body{
+    padding: 40px;
+}
+.c-card__title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.c-card__footer{
+    border-top: 1px solid lightgray;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 
 /*
     Component: Forms
