@@ -25,6 +25,7 @@
 
 :root {
     --color-alpha: #3385FF;
+    --color-gray-normal:  #606274;
 
 }
 
@@ -552,7 +553,19 @@ input, label {
 }
 
 .c-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: var(--color-gray-normal);
     
+}
+.c-label--option{
+    margin-bottom: 0px;
+    margin-left: 8px;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-gray-normal);
 }
 
 /* If a input is focused within the form-field class change te color of the label */
